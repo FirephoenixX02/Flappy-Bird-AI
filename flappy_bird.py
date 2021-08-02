@@ -241,6 +241,7 @@ def main(genomes, config):
                     nets.pop(birds.index(bird))
                     ge.pop(birds.index(bird))
                     birds.pop(birds.index(bird))
+                    print(score)
 
                 if not pipe.passed and pipe.x < bird.x:
                     pipe.passed = True
